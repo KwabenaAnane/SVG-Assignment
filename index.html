@@ -32,7 +32,19 @@
       </svg>
     </div>
 
-    <!-- mastercard svg -->
+
+    <!-- Mastercard svg -->
+    <div style="margin: 50px;">
+    <svg width="512" height="512"  xmlns="http://www.w3.org/2000/svg">
+
+      <rect x="0" y="0" rx="30" ry="30" width="450" height="250" fill="black" stroke="none" />
+
+      <rect x="0" y="150" width="450" height="45" stroke="white" fill="white" />
+
+    </div>
+
+
+    <!-- mastercard2 svg -->
     <div>
       <svg
         width="512"
@@ -40,6 +52,13 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
+        <defs>
+          <mask id="mask1">
+            <rect x="0" y="0" width="512" height="400" fill="white" />
+
+            <rect x="0" y="100" width="512" height="50" fill="#878787" />
+          </mask>
+        </defs>
         <rect
           x="50"
           y="50"
@@ -48,7 +67,8 @@
           width="450"
           height="300"
           fill="black"
-          stroke="black"
+          stroke="none"
+          mask="url(#mask1)"
         />
       </svg>
     </div>
