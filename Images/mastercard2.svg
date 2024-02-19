@@ -1,0 +1,29 @@
+  
+
+      <svg
+        width="512"
+        height="512"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+      <symbol id="mastercard2" viewbox="0 65 600 500">
+        <defs>
+          <mask id="mask1">
+            <rect x="0" y="0" width="512" height="400" fill="white" />
+
+            <rect x="0" y="100" width="512" height="50" fill="#878787" />
+          </mask>
+        </defs>
+        <rect
+          x="50"
+          y="50"
+          rx="30"
+          ry="30"
+          width="450"
+          height="300"
+          fill="black"
+          stroke="none"
+          mask="url(#mask1)"
+        />
+        </symbol>
+      </svg>
